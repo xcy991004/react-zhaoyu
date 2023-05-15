@@ -1,3 +1,21 @@
 /* TODO */
 .MultiCheck {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.MultiCheck-item {
+    width: 50%;
+}
+
+input[type=checkbox]:checked::before {
+    content: "✓";
+    color: #fff;
+    width: 13px;
+    height: 13px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
 }
